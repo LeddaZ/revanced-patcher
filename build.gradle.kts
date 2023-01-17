@@ -51,7 +51,7 @@ publishing {
         if (System.getenv("GITHUB_ACTOR") != null)
             maven {
                 name = "GitHubPackages"
-                url = uri("https://maven.pkg.github.com/revanced/revanced-patcher")
+                url = uri("https://maven.pkg.github.com/LeddaZ/revanced-patcher")
                 credentials {
                     username = System.getenv("GITHUB_ACTOR")
                     password = System.getenv("GITHUB_TOKEN")
